@@ -14,17 +14,16 @@ const timedGreatings = (name) => {
     result = '';
     console.log(time);
     if(time < 13){
-        result = 'Buongiorno';
+        result = 'Buongiorno ';
     }
     else if(time <= 17){
-        result = 'Buon pomeriggio';
+        result = 'Buon pomeriggio ';
     }
     else if(time > 17){
-        result = 'Buona sera';
+        result = 'Buona sera ';
     }
 
-
-
+    result += name;
     return result;
 }
 

@@ -9,10 +9,28 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+const timedGreatings = (name) => {
+    let time = new Date().getHours();
+    result = '';
+    console.log(time);
+    if(time < 13){
+        result = 'Buongiorno';
+    }
+    else if(time <= 17){
+        result = 'Buon pomeriggio';
+    }
+    else if(time > 17){
+        result = 'Buona sera';
+    }
 
+
+
+    return result;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+let greatings = timedGreatings(name);
+console.log(greatings);
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.

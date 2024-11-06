@@ -4,6 +4,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+
+/**
+ * Da un array, passato come argomento, estrapoliamo la prima lettera di ogni elemento
+ * e generiamo un nuovo array composto solo dalle iniziali
+ * @param {array} array
+ * @returns {array}
+ */
 const namesInitials = (array) => {
     newArray = [];
     for(i = 0; i < array.length; i++){

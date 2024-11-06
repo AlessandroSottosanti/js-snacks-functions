@@ -4,6 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 const letter = 'A';
 
 // Dichiara la funzione qui.
+
+/**
+ * Passando come proprietà un array cerchiamo di 
+ * crearne un altro con solo elementi che iniziano per {char}, 
+ * la seconda proprietà in ingresso alla funzione
+ * @param {array} array
+ * @param {char} char
+ * @returns {array}
+ */
 const filteredArray = (array, char) => {
     let filteredby = [];
     for(i = 0; i < array.length; i++ ){

@@ -12,7 +12,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
  * @returns {array}
  */
 const namesInitials = (array) => {
-    newArray = [];
+    let newArray = [];
     for(i = 0; i < array.length; i++){
         let currentName = array[i];
         let initial = currentName[0];

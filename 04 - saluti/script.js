@@ -5,9 +5,18 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+/**
+ * Retituisce un messaggio di saluto personalizzato
+ * @param {any} name
+ * @returns {any}
+ */
+const getGreatings = (name) => {
+    return `Ciao ${name}`;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+let message = getGreatings(name);
+console.log(message);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario

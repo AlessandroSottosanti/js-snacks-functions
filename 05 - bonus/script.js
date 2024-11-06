@@ -9,6 +9,13 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+
+
+/**
+ * Questa funzione accetta in entrata una stringa ( un nome) e restituisce un saluto in base all'orario e specifico per la persona
+ * @param {string} name
+ * @returns {string}
+ */
 const timedGreatings = (name) => {
     let time = new Date().getHours();
     let result = '';

@@ -11,7 +11,7 @@ const name = 'Mario';
 // Dichiara la funzione qui.
 const timedGreatings = (name) => {
     let time = new Date().getHours();
-    result = '';
+    let result = '';
     console.log(time);
     if(time < 13){
         result = 'Buongiorno ';
